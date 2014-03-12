@@ -53,9 +53,57 @@ table {
 
 /*Positioning and elements*/
 
+.container {
+  padding-bottom: 60px;
+}
 
 
 /*end of positioning and elements*/
+
+/*callout*/
+
+.callout {
+  text-align: center;
+}
+
+.callout h2 {
+  font-size: 30px;
+  font-family: Lucida Grande;
+  padding: 5px 0;
+  color: #025488;
+}
+
+.callout h3 {
+  font-size: 30px;
+  font-family: Lucida Grande;
+  padding: 5px 0;
+  color: #025488;
+  margin: 5px 0;
+  line-height: 1.1em;
+}
+
+.callout img {
+  height: 30px;
+}
+
+#orange {
+  color: #DD7500;
+}
+
+#yellow {
+  color: #E3CF57;
+}
+
+#blue {
+  color: #0099CC;
+}
+
+#ror {
+  color: #B0171F;
+}
+
+/*end of callout*/
+
 
 /*projects */
 
@@ -94,19 +142,63 @@ table {
   line-height: 1.2em;
 }
 
+.time-block ul {
+  margin-top: 10px;
+}
+
 .time-block li {
-  font-size 18px;
+  font-size: 22px;
+  font-family: Lucida Grande;
+  line-height: 1.3em;
+  color: #01256e;
+  padding: 2px;
+  color: gray;
+}
+
+.time-block p {
+  font-size: 22px;
   font-family: Lucida Grande;
   line-height: 1.3em;
   color: #01256e;
 }
 
-.time-block p {
-  font-size 22px;
-  font-family: Lucida Grande;
-  line-height: 1.3em;
-  color: #01256e;
+.technologies li {
+  display: inline-block;
 }
+
+.technologies img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: none;
+}
+
+#github a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+#github:hover {
+  text-decoration: underline;
+}
+
+#live a {
+  color: white;
+  background-color: #025488;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#live a:hover {
+  background-color: #1874CD;
+}
+
+#background {
+  background-color: lightgray;
+}
+
 /*end of projects*/
 
 
@@ -138,34 +230,23 @@ table {
 }
 
 #pull-right li {
-  font-size: 13px;
+  font-size: 36px;
   font-family: Lucida Grande;
   position: relative;
-  top: -30px;
   vertical-align: center;
+  color: #025488;
+  font-weight: bold;
 }
 
 #pull-right a {
   color: #025488;
 }
 
-
-
 #pull-right {
   margin-right: 50px;
   position: relative;
-  top: 15px;
 }
 
-#pull-right img {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  position: relative;
-  top: 15px;
-  margin-left: -5px;
-  padding-left: 7px;
-}
 
 .footer {
    position:fixed;
