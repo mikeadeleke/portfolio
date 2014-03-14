@@ -54,7 +54,7 @@ table {
 /*Positioning and elements*/
 
 .container {
-  padding-bottom: 60px;
+  margin-top: 80px;
 }
 
 
@@ -64,6 +64,12 @@ table {
 
 .callout {
   text-align: center;
+  position: fixed;
+  height: 90px;
+  width:100%;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
 }
 
 .callout h2 {
@@ -117,6 +123,15 @@ table {
 
 .time-block {
   padding: 20px;
+}
+
+.time-block h2 {
+  font-size: 40px;
+  font-family: Lucida Grande;
+  padding: 5px 0;
+  color: #025488;
+  line-height: 1.2em;
+  text-align: center;
 }
 
 .time-block h3 {
@@ -226,25 +241,30 @@ table {
 }
 
 #pull-left li {
-  display: inline;
+  display: inline-block;
 }
 
 #pull-right li {
-  font-size: 36px;
+  font-size: 16px;
   font-family: Lucida Grande;
+  color: black;
+  display: inline-block;
+  padding-right: 5px;
   position: relative;
-  vertical-align: center;
-  color: #025488;
-  font-weight: bold;
+  top: 15px;
 }
 
 #pull-right a {
   color: #025488;
+  text-decoration: none;
+}
+
+#pull-right a:hover {
+  text-decoration: underline;
 }
 
 #pull-right {
-  margin-right: 50px;
-  position: relative;
+  margin-right: 10px;
 }
 
 
@@ -252,9 +272,9 @@ table {
    position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height: 30px;
    width:100%;
-   background-color: #FAF0E6;
+   background-color: white;
    border: 1px solid lightgrey;
    padding-bottom: 30px;
   padding-top: 10px;
